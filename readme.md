@@ -37,8 +37,8 @@ Build a production-style RAG application with:
 
 | Phase | Topic                           | Status | Progress |
 | ----- | ------------------------------- | ------ | -------- |
-| 1     | RAG Fundamentals                | ⬜      | 0%       |
-| 2     | Document Ingestion & Chunking   | ⬜      | 0%       |
+| 1     | RAG Fundamentals                | ✅      | 100%       |
+| 2     | Document Ingestion & Chunking   | ✅      | 100%       |
 | 3     | Embeddings & Vector Databases   | ⬜      | 0%       |
 | 4     | Retrieval Quality               | ⬜      | 0%       |
 | 5     | LangChain / LangGraph           | ⬜      | 0%       |
@@ -68,15 +68,15 @@ Understand how a basic RAG pipeline works from document upload to final answer.
 
 ## Topics Checklist
 
-* [ ] What is RAG?
-* [ ] Why RAG instead of fine-tuning?
-* [ ] What are embeddings?
-* [ ] What is semantic search?
-* [ ] What is a vector database?
-* [ ] What is a context window?
-* [ ] What is hallucination?
-* [ ] What is similarity search?
-* [ ] Understand the complete RAG pipeline
+* [x] What is RAG?
+* [x] Why RAG instead of fine-tuning?
+* [x] What are embeddings?
+* [x] What is semantic search?
+* [x] What is a vector database?
+* [x] What is a context window?
+* [x] What is hallucination?
+* [x] What is similarity search?
+* [x] Understand the complete RAG pipeline
 
 ## Pipeline
 
@@ -101,34 +101,6 @@ LLM
    ↓
 Answer
 ```
-
-## Practical Task
-
-* [ ] Build a basic PDF Q&A chatbot
-* [ ] Upload a PDF
-* [ ] Split text into chunks
-* [ ] Generate embeddings
-* [ ] Store embeddings in FAISS
-* [ ] Retrieve relevant chunks
-* [ ] Generate an answer using an LLM
-
-## Daily Log
-
-### Day 1
-
-**Date:** __________
-
-## **Topics Learned:**
-
-## **What I Understood:**
-
-## **Code Written:**
-
-## **Doubts:**
-
-## **Resources:**
-
-**Today's Progress:** ___%
 
 ---
 
@@ -180,23 +152,6 @@ Learn how to properly process real-world documents before storing them in a vect
 * [ ] Test different chunk sizes
 * [ ] Compare chunk overlap values
 
-## Daily Log
-
-### Day ___
-
-**Date:** __________
-
-## **Topics Learned:**
-
-## **Experiments:**
-
-## **Best Chunk Size Tested:**
-
-## **What Worked:**
-
-## **What Failed:**
-
-## **Key Learning:**
 
 ---
 
@@ -250,19 +205,6 @@ FAISS → Qdrant → PostgreSQL + pgvector
 * [ ] Test top-k retrieval
 * [ ] Compare different embedding models
 
-## Daily Log
-
-**Date:** __________
-
-## **Embedding Model Used:**
-
-## **Vector DB Used:**
-
-## **Experiments:**
-
-## **Observations:**
-
-## **Important Concepts:**
 
 ---
 
@@ -331,20 +273,6 @@ Answer
 * [ ] Compare retrieval before and after reranking
 * [ ] Measure retrieval quality
 
-## Daily Log
-
-**Date:** __________
-
-## **Retrieval Technique Learned:**
-
-## **Before Improvement:**
-
-## **After Improvement:**
-
-## **What Improved?**
-
-## **What Still Fails?**
-
 ---
 
 # Phase 5 — LangChain & LangGraph
@@ -403,17 +331,6 @@ Generate Answer
 * [ ] Add retry/rewrite logic
 * [ ] Stream final answers
 
-## Daily Log
-
-**Date:** __________
-
-## **Framework Concept:**
-
-## **Implementation:**
-
-## **What I Understood:**
-
-## **What I Need to Revise:**
 
 ---
 
@@ -505,19 +422,6 @@ Job Completed
 * [ ] Add document deletion
 * [ ] Add per-user document access
 
-## Daily Log
-
-**Date:** __________
-
-## **Backend Feature Built:**
-
-## **API Endpoints Created:**
-
-## **Database Changes:**
-
-## **Redis Usage:**
-
-## **Bugs Fixed:**
 
 ---
 
@@ -578,19 +482,6 @@ Chunk 12 → Irrelevant
 * [ ] Track failures
 * [ ] Improve the pipeline based on results
 
-## Daily Log
-
-**Date:** __________
-
-## **Metric Learned:**
-
-## **Evaluation Dataset Size:**
-
-## **Results:**
-
-## **Main Failure:**
-
-## **Improvement Made:**
 
 ---
 
@@ -640,17 +531,6 @@ User A must NEVER retrieve User B's documents.
 * [ ] Test unauthorized document access
 * [ ] Add cost tracking
 
-## Daily Log
-
-**Date:** __________
-
-## **Security Concept:**
-
-## **Failure Scenario Tested:**
-
-## **Fix Implemented:**
-
-## **Important Lesson:**
 
 ---
 
@@ -695,17 +575,6 @@ User A must NEVER retrieve User B's documents.
 * [ ] Add retrieval verification
 * [ ] Experiment with multimodal documents
 
-## Daily Log
-
-**Date:** __________
-
-## **Advanced Topic:**
-
-## **Why It Is Useful:**
-
-## **Implementation:**
-
-## **Results:**
 
 ---
 
@@ -796,144 +665,6 @@ Docker + Render / Railway / VPS
 * [ ] Docker
 * [ ] Deployment
 * [ ] README documentation
-
----
-
-# 📅 Daily Learning Log Template
-
-Copy this section for every study day.
-
-## Day ___ — __________
-
-**Date:** __________
-**Study Duration:** __________
-**Phase:** __________
-**Topic:** __________
-
-### 🎯 Today's Goal
-
-*
-
-### 📚 What I Learned
-
-*
-
-### 💻 Code / Implementation
-
-*
-
-### 🧠 Concepts I Can Explain
-
-*
-*
-*
-
-### 🐛 Problems / Errors
-
-*
-
-### 🔧 How I Fixed Them
-
-*
-
-### 📈 Progress
-
-**Today's Progress:** ___%
-
-### 🔁 Revision Needed
-
-*
-
-### 🚀 Tomorrow's Goal
-
-*
-
----
-
-# 📆 Weekly Review Template
-
-## Week ___ Review
-
-**Week Dates:** __________
-
-### Topics Completed
-
-* [ ]
-* [ ]
-* [ ]
-
-### Projects / Features Built
-
-*
-
-### Biggest Technical Learning
-
-*
-
-### Biggest Problem Faced
-
-*
-
-### What I Need to Improve
-
-*
-
-### GitHub Progress
-
-* [ ] Code pushed
-* [ ] README updated
-* [ ] Commit history maintained
-* [ ] Project documented
-
-### Next Week's Target
-
-*
-
----
-
-# 🎓 Placement Preparation Integration
-
-RAG should support your placement preparation, not replace it.
-
-## Weekly Priority
-
-| Area                  | Priority     |
-| --------------------- | ------------ |
-| DSA                   | 🔥 Very High |
-| Python + OOP          | 🔥 Very High |
-| DBMS + SQL            | 🔥 Very High |
-| FastAPI / Django      | 🔥 Very High |
-| Production Project    | 🔥 Very High |
-| ML Fundamentals       | High         |
-| RAG                   | High         |
-| Advanced Agentic RAG  | Medium       |
-| Research-Level Topics | Low          |
-
-## Placement Target Profile
-
-```text
-DSA
-+
-Python
-+
-OOP
-+
-DBMS
-+
-SQL
-+
-FastAPI / Django
-+
-PostgreSQL
-+
-React
-+
-ML Fundamentals
-+
-Production RAG Project
-+
-Deployment
-```
 
 ---
 
