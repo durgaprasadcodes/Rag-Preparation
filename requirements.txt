@@ -3,6 +3,7 @@ langchain-core
 langchain-community
 langchain-text-splitters
 
+openai
 langchain-groq
 langchain-openai
 langchain-postgres
