@@ -114,22 +114,22 @@ Learn how to properly process real-world documents before storing them in a vect
 
 ## Topics Checklist
 
-* [ ] PDF parsing
-* [ ] DOCX loading
-* [ ] TXT loading
-* [ ] CSV loading
-* [ ] HTML loading
-* [ ] RecursiveCharacterTextSplitter
-* [ ] Token-based chunking
-* [ ] Chunk overlap
-* [ ] Semantic chunking
-* [ ] Parent-child chunking
-* [ ] Metadata extraction
-* [ ] Page number tracking
-* [ ] Document IDs
-* [ ] Table extraction
-* [ ] OCR basics
-* [ ] Handling scanned PDFs
+* [x] PDF parsing
+* [x] DOCX loading
+* [x] TXT loading
+* [x] CSV loading
+* [x] HTML loading
+* [x] RecursiveCharacterTextSplitter
+* [x] Token-based chunking
+* [x] Chunk overlap
+* [x] Semantic chunking
+* [x] Parent-child chunking
+* [x] Metadata extraction
+* [x] Page number tracking
+* [x] Document IDs
+* [x] Table extraction
+* [x] OCR basics
+* [x] Handling scanned PDFs
 
 ## Metadata Example
 
@@ -144,13 +144,13 @@ Learn how to properly process real-world documents before storing them in a vect
 
 ## Practical Task
 
-* [ ] Build a multi-format document ingestion pipeline
-* [ ] Extract metadata
-* [ ] Preserve page numbers
-* [ ] Handle empty documents
-* [ ] Handle corrupted files
-* [ ] Test different chunk sizes
-* [ ] Compare chunk overlap values
+* [x] Build a multi-format document ingestion pipeline
+* [x] Extract metadata
+* [x] Preserve page numbers
+* [x] Handle empty documents
+* [x] Handle corrupted files
+* [x] Test different chunk sizes
+* [x] Compare chunk overlap values
 
 
 ---
@@ -165,30 +165,28 @@ Understand how text becomes vectors and how vector databases store and retrieve 
 
 ## Topics Checklist
 
-* [ ] Sentence Transformers
-* [ ] HuggingFace embeddings
-* [ ] OpenAI embeddings
-* [ ] Embedding dimensions
-* [ ] Cosine similarity
-* [ ] Euclidean distance
-* [ ] Vector indexing
-* [ ] Upsert
-* [ ] Delete
-* [ ] Update
-* [ ] Metadata filtering
-* [ ] Collection management
-* [ ] Similarity search
-* [ ] Top-K retrieval
-* [ ] Hybrid search concepts
+* [x] Sentence Transformers
+* [x] HuggingFace embeddings
+* [x] OpenAI embeddings
+* [x] Embedding dimensions
+* [x] Cosine similarity
+* [x] Euclidean distance
+* [x] Vector indexing
+* [x] Upsert
+* [x] Delete
+* [x] Update
+* [x] Metadata filtering
+* [x] Collection management
+* [x] Similarity search
+* [x] Top-K retrieval
+* [x] Hybrid search concepts
 
 ## Vector Databases
 
-* [ ] FAISS
+* [x] FAISS
 * [ ] ChromaDB
-* [ ] Qdrant
-* [ ] pgvector
+* [x] pgvector
 * [ ] Pinecone basics
-* [ ] Weaviate basics
 
 ## Recommended Priority
 
@@ -198,13 +196,12 @@ FAISS → Qdrant → PostgreSQL + pgvector
 
 ## Practical Task
 
-* [ ] Build a document search engine
-* [ ] Index 100+ documents
-* [ ] Search using natural language
-* [ ] Add metadata filtering
-* [ ] Test top-k retrieval
-* [ ] Compare different embedding models
-
+* [x] Build a document search engine
+* [x] Index 100+ documents
+* [x] Search using natural language
+* [x] Add metadata filtering
+* [x] Test top-k retrieval
+* [x] Compare different embedding models
 
 ---
 
@@ -222,9 +219,9 @@ Improve the quality and relevance of retrieved context.
 
 ### Similarity Search
 
-* [ ] Top-K retrieval
-* [ ] Similarity thresholds
-* [ ] Metadata filtering
+* [x] Top-K retrieval
+* [x] Similarity thresholds
+* [x] Metadata filtering
 
 ### Hybrid Search
 
